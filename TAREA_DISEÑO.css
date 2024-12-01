@@ -1,0 +1,104 @@
+/* Estilos generales */
+body {
+    margin: 100px;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+
+
+.header-container{
+    align-items: center;
+    margin: 10px;
+}
+
+/* Estilos del header */
+.login-header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-header h1 {
+    font-size: 28px;
+    margin: 20px;
+}
+
+.login-header h2 {
+    font-size: 20px;
+    margin: 0px auto; /* Ajusta los márgenes verticales según el espacio que necesites */
+    text-align: center; /* Asegura que el texto quede centrado horizontalmente */
+}
+/* Contenedor del formulario */
+.login-container {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    color: #333;
+}
+
+/* Campos del formulario */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    color: #666;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Botón */
+.btn {
+    background: #f30606;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #764ba2;
+}
+
+/* Enlace para registro */
+.register-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #fffdfd;
+}
+
+.register-link a {
+    color: #eaaf66;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}

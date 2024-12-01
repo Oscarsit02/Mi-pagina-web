@@ -1,0 +1,94 @@
+/* Estilo general */
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #748eed; /* Fondo bl  anco */
+    color: #d90404; /* Texto rojo */
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header .clase.conteiner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header .Logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+header h2 {
+    margin: 30;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/* Contenedor principal */
+section {
+    margin: 2rem auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Título de la sección */
+section h2 {
+    text-align: center; /* Alineado a la izquierda */
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    padding: 0.5rem;
+    background-color: #d90404; /* Fondo rojo */
+    border-radius: 5px;
+}
+
+/* Lista de años */
+ul {
+    list-style-type: none; /* Quitar viñetas */
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 0.5rem 0;
+    text-align: left; /* Alinear a la izquierda */
+}
+
+ul li a {
+    text-decoration: none;
+    color: white; /* Texto blanco */
+    font-weight: bold;
+    display: block; /* Ocupa todo el ancho */
+    padding: 0.75rem 1rem; /* Espaciado interno */
+    background-color: #d90404; /* Fondo rojo */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: all 0.3s ease;
+}
+
+ul li a:hover {
+    background-color: #ff4040; /* Rojo más claro al pasar el mouse */
+    color: white;
+}
+
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 768px) {
+    section {
+        width: 90%;
+    }
+}
