@@ -1,0 +1,71 @@
+body{
+  background: linear-gradient(135deg, #667eea,#764ba2);
+}
+
+tbody {
+  font-family:sans-serif;
+  background: linear-gradient(135deg, #c7ceee,#d6c7e6);
+}
+
+.container {
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+  background: linear-gradient(135deg, #667eea,#764ba2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font: 20px "open sans" sans-serif;
+}
+
+h3 {
+  text-align: center;
+}
+
+td {
+  width: 70%;
+  margin: 40px auto;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font: 20px, "open sans", sans-serif;
+  text-align: center;
+  
+}
+
+p {
+  font: 20px, "open sans" sans-serif;
+  text-align: justify;
+  color: #764ba2;
+}
+
+summary {
+  font: 20px "open sans", sans-serif;
+  text-align: justify;
+}
+
+th {
+  width: 30%;
+ 
+  background: linear-gradient(135deg, #c7ceee,#d6c7e6);
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font: 20px "open sans" sans-serif;
+  text-align: center;
+}
+
+table{
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  font-size: 14px, "open sans" sans-serif;
+  line-height: 1.42857143;
+  color: rgb(0, 0, 0);
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1270px;
+  text-align: center;
+}
+  details{
+    color: rgb(255, 0, 0);
+  }
