@@ -1,1 +1,82 @@
 
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Invitación - Boda de Oscar & Mica</title>
+  <link rel="stylesheet" href="InvitacionBoda.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <div class="hero-content">
+        <h1 class="couple">Mica & Oscar</h1>
+        <p class="subtitle">Te invitamos a celebrar nuestro matrimonio</p>
+        <div class="meta">
+          <div class="date">Sábado, 20 de Diciembre 2025 — 17:00</div>
+          <button id="confirmar" class="btn">Confirmar asistencia</button>
+        </div>
+      </div>
+
+      <figure class="cover">
+        <img src="IMAGENES/Oscar.jpg" alt="Imagen pareja" />
+      </figure>
+    </header>
+
+    <section class="controls">
+      <div class="music-control">
+        <button id="playBtn" class="btn-outline">► Reproducir música</button>
+        <span id="musicStatus" class="small">Pausado</span>
+      </div>
+
+      <div class="countdown" aria-live="polite">
+        <div class="time" id="days">00</div>
+        <div class="label">días</div>
+        <div class="time" id="hours">00</div>
+        <div class="label">hrs</div>
+        <div class="time" id="minutes">00</div>
+        <div class="label">min</div>
+        <div class="time" id="seconds">00</div>
+        <div class="label">seg</div>
+      </div>
+    </section>
+
+    <section class="details">
+      <article class="info">
+        <h2>Programa</h2>
+        <ul>
+          <li>17:00 — Ceremonia</li>
+          <li>18:00 — Cocktail</li>
+          <li>19:30 — Cena y fiesta</li>
+        </ul>
+      </article>
+
+      <article class="location">
+        <h2>Ubicación</h2>
+        <!-- Reemplaza el src con tu mapa/latlng o URL de Google Maps -->
+        <div class="map-wrapper">
+          <iframe
+            id="mapFrame"
+            src="https://www.google.com/maps?q=-25.263740,-57.575926&z=15&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <a id="openMap" class="link" href="https://www.google.com/maps/search/?api=1&query=-25.263740,-57.575926" target="_blank" rel="noopener">Abrir en Google Maps</a>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <small>Por favor confirmar asistencia antes del 1 de Octubre.</small>
+    </footer>
+  </main>
+
+  <!-- Audio (oculto) -->
+  <audio id="bgAudio" src="YOUR_AUDIO_FILE_URL.mp3" preload="none"></audio>
+
+  <script src="InvitacionBoda.js"></script>
+</body>
+</html>
