@@ -1,7 +1,7 @@
 // === CONFIG ===
 // Cambia la fecha y hora del evento aquí (YYYY, M-1, D, H, M, S)
 // Ej: new Date(2025, 9, 12, 17, 0, 0) -> 12 Oct 2025 17:00 (nota: mes base 0)
-const eventDate = new Date(2025, 12, 20, 17, 0, 0);
+const eventDate = new Date(2025, 11, 20, 17, 0, 0);
 
 // Reemplaza con tu correo para RSVP (mailto)
 const btnConfirmar = document.getElementById('confirmar');
@@ -88,3 +88,4 @@ btnConfirmar.addEventListener('click', () => {
         alert("Tu navegador bloqueó la apertura automática. Haz clic aquí: " + url);
     }
 });
+
