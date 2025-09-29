@@ -1,41 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>uvirtual</title>
-    <link rel="stylesheet" href="tarea_diseño.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Invitación - Boda de Juan & Paola</title>
+  <link rel="stylesheet" href="InvitacionBoda.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
+  <main class="container">
+    <!-- Hero con fondo de olivos -->
+    <header class="hero fondo-olivos">
+      <div class="hero-content">
+        <h1 class="couple">Juan & Paola</h1>
+        <p class="subtitle">Te invitamos a celebrar nuestro matrimonio</p>
+        <div class="meta">
+          <div class="date">Sábado, 8 de Noviembre 2025 — 21:00</div>
+          <button id="confirmar" class="btn">Confirmar asistencia</button>
+        </div>
+      </div>
 
-    
-    <header>
-        <div class="header-container">
-    <img src="IMAGENES/header-logo.png" alt="Logo de la Investigacion" class="Logo">
-        </div>
-    <div class="login-header">
-        <h1>Bienvenidos a la Uvirtual</h1>
-        <h2>INICIAR SESION</h2>
-    </div>     
-    
-    <form>  
-        <div class="form-group">
-            <label for="username">Usuario</label>
-            <input type="text" id="username" placeholder="Ingresa tu usuario" required>
-        </div>
-        <div class="form-group">
-            <label for="password">Contraseña</label>
-            <input type="password" id="password" placeholder="Ingresa tu contraseña" required>
-        </div>
-        <button type="submit" id="loginButton" class="btn">Ingresar</button>
-        <p class="register-link">¿No tienes una cuenta? <a href="#">Regístrate aquí</a></p>
-    </form>
-    <p id="errorMessage"></p>
-        
+      <figure class="cover">
+        <img src="IMAGENES/fotocliente.jpg" alt="Imagen pareja" />
+      </figure>
     </header>
-        <script src="tarea_diseño.js"></script>
-</body>
-</html>
+
+    <!-- Controles con fondo de olivos -->
+    <section class="controls fondo-olivos">
+      <div class="music-control">
+        <button id="playBtn" class="btn-outline">► Reproducir música</button>
+        <span id="musicStatus" class="small">Pausado</span>
+      </div>
+
+      <div class="countdown" aria-live="polite">
+        <div class="time" id="days">00</div>
+        <div class="label">días</div>
+        <div class="time" id="hours">00</div>
+        <div class="label">hrs</div>
+        <div class="time" id="minutes">00</div>
+        <div class="label">min</div>
+        <div class="time" id="seconds">00</div>
+        <div class="label">seg</div>
+      </div>
+    </section>
+
+  <!-- Historia / Programa (pantalla completa) -->
+<section class="info fondo-olivos">
+  <div class="info-card">
+    <h2>La Historia Comienza</h2>
+    <ul>
+      <li>Cuando dos personas que ni soñaban conocerse</li>
+      <li>Terminan encontrándose en el instante menos esperado</li>
+      <li>Pero en el momento indicado</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Ubicación centrada en recuadro -->
+<section class="fondo-olivos">
+  <div class="location-card">
+    <h2>Ubicación</h2>
+    <div class="map-wrapper">
+      <iframe
+        id="mapFrame"
+        src="https://www.google.com/maps?q=-25.263740,-57.575926&z=15&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <a id="openMap" class="link" href="https://www.google.com/maps/place/Quinta+Los+Campeones/@-25.2952701,-57.4389597,17z/data=!3m1!4b1!4m6!3m5!1s0x945db1f193468c85:0x1568536a2974d3c!8m2!3d-25.2952701!4d-57.4389597!16s%2Fg%2F11kbd6f1wy?entry=ttu&g_ep=EgoyMDI1MDkyNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Abrir en Google Maps</a>
+  </div>
+</section>
+
