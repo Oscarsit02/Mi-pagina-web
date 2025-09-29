@@ -79,14 +79,13 @@ body {
 }
 
 .cover img {
-  width: 100%;
-  max-width: 300%;
-  height: auto;
+  width: 100%;         /* se adapta al ancho del contenedor */
+  height: auto;        /* mantiene proporción */
+  max-width: 300%;     /* nunca excede el contenedor */
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-  align-content: center;
-  margin: 60px auto;
-  display: block;
+  display: block; 
+}
 }
 
 /* Botones */
@@ -274,6 +273,7 @@ body {
   text-decoration: none;
   font-weight: 600;
 }
+
 
 
 
