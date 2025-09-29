@@ -81,6 +81,7 @@ body {
 .cover img {
   width: 100%;
   max-width: 480px;
+  height: auto;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   align-content: center;
@@ -273,4 +274,5 @@ body {
   text-decoration: none;
   font-weight: 600;
 }
+
 
