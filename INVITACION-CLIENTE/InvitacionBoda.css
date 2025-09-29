@@ -93,9 +93,10 @@ body {
   background: var(--accent);
   color: white;
   border: none;
-  padding: 12px 18px;
-  border-radius: 10px;
+  padding: 12px 24px;
+  border-radius: 20px;
   cursor: pointer;
+  margin: 20px auto;
   font-size: 16px;
 }
 .btn:hover {
@@ -273,6 +274,7 @@ body {
   text-decoration: none;
   font-weight: 600;
 }
+
 
 
 
