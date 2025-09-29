@@ -84,7 +84,8 @@ body {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   align-content: center;
-  margin: 60px;
+  margin: 60px auto;
+  display: block;
 }
 
 /* Botones */
@@ -272,3 +273,4 @@ body {
   text-decoration: none;
   font-weight: 600;
 }
+
