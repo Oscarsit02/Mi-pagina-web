@@ -81,7 +81,7 @@ body {
 .cover img {
   width: 100%;         /* se adapta al ancho del contenedor */
   height: auto;        /* mantiene proporción */
-  max-width: 350%;     /* nunca excede el contenedor */
+  max-width: 250%;     /* nunca excede el contenedor */
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   display: block; 
@@ -273,6 +273,7 @@ body {
   text-decoration: none;
   font-weight: 600;
 }
+
 
 
 
